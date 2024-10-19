@@ -1,41 +1,20 @@
-Machine learning (ML) is a subset of artificial intelligence that focuses on enabling computers to learn from data and make predictions or decisions without being explicitly programmed for specific tasks. The key idea is to develop algorithms that can identify patterns and improve their performance as they are exposed to more data.
+Algorithms 
 
-Types of Machine Learning
-Supervised Learning:
+Linear Regression:
 
-Definition: Involves training a model on labeled data, meaning the input data is paired with the correct output.
-Examples:
-Classification (e.g., spam detection in emails)
-Regression (e.g., predicting house prices)
-Common Algorithms: Linear regression, logistic regression, decision trees, support vector machines, and neural networks.
-Unsupervised Learning:
+Predicts a continuous output based on a linear relationship with input features.
+Logistic Regression:
 
-Definition: Involves training a model on data that is not labeled, meaning the algorithm tries to learn the patterns and structure of the data on its own.
-Examples:
-Clustering (e.g., customer segmentation)
-Dimensionality reduction (e.g., principal component analysis)
-Common Algorithms: K-means clustering, hierarchical clustering, and DBSCAN.
-Semi-Supervised Learning:
+Used for binary classification problems; predicts probabilities that map to two classes.
+Decision Trees:
 
-Definition: Combines labeled and unlabeled data to improve learning accuracy. Typically, a small amount of labeled data is used with a larger amount of unlabeled data.
-Examples: Text classification where only some documents are labeled.
-Common Techniques: Variational autoencoders, pseudo-labeling.
-Reinforcement Learning:
+A tree-like model that makes decisions based on feature values, splitting data at each node.
+Support Vector Machines (SVM):
 
-Definition: Involves training an agent to make decisions by taking actions in an environment to maximize cumulative reward. The agent learns from the consequences of its actions rather than from labeled input/output pairs.
-Examples: Game playing (e.g., AlphaGo), robotics, and autonomous vehicles.
-Common Algorithms: Q-learning, deep Q-networks (DQN), and policy gradients.
-Self-Supervised Learning:
+Finds the hyperplane that best separates classes in the feature space, maximizing the margin.
+K-Nearest Neighbors (KNN):
 
-Definition: A form of unsupervised learning where the system generates its own labels from the input data. This often involves predicting parts of the data from other parts.
-Examples: Language models predicting the next word in a sentence, image models filling in missing parts of an image.
-Transfer Learning:
+Classifies data points based on the classes of their nearest neighbors in the feature space.
+Neural Networks:
 
-Definition: Involves taking a pre-trained model (usually trained on a large dataset) and fine-tuning it on a smaller, task-specific dataset. This is particularly useful when data is scarce.
-Examples: Using a model trained on ImageNet for a specific image classification task.
-Applications of Machine Learning
-Healthcare: Predictive analytics, medical imaging, personalized medicine.
-Finance: Fraud detection, algorithmic trading, risk assessment.
-Retail: Recommendation systems, inventory management, customer segmentation.
-Transportation: Autonomous vehicles, traffic prediction.
-Machine learning is a rapidly evolving field, and its applications continue to expand across various industries, driving innovations and improvements in efficiency and effectiveness.
+Composed of layers of interconnected nodes; useful for both regression and classification tasks.
