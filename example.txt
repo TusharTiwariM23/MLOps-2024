@@ -1,1 +1,21 @@
 Machine learning (ML) is a subset of artificial intelligence that focuses on enabling computers to learn from data and make predictions or decisions without being explicitly programmed for specific tasks. The key idea is to develop algorithms that can identify patterns and improve their performance as they are exposed to more data.
+Algorithms 
+
+Linear Regression:
+
+Predicts a continuous output based on a linear relationship with input features.
+Logistic Regression:
+
+Used for binary classification problems; predicts probabilities that map to two classes.
+Decision Trees:
+
+A tree-like model that makes decisions based on feature values, splitting data at each node.
+Support Vector Machines (SVM):
+
+Finds the hyperplane that best separates classes in the feature space, maximizing the margin.
+K-Nearest Neighbors (KNN):
+
+Classifies data points based on the classes of their nearest neighbors in the feature space.
+Neural Networks:
+
+Composed of layers of interconnected nodes; useful for both regression and classification tasks.
